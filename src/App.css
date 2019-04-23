@@ -1,0 +1,95 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --bodyColor: #6C6c6c;
+  --headingColor: #2e2e2e;
+  --pinkColor: #F62f5e;
+  --greyColor: #b4b4b4;
+}
+
+body {
+  font-family: "Open Sans", serif !important;
+  background: var(--mainWhite) !important;
+  /*color: var(--bodyColor) !important;*/
+  size: 16px;
+  line-height: 150%;
+}
+
+body.small {
+  font-family: "Open Sans", serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--bodyColor) !important;
+  size: 16px;
+  line-height: 150%;
+}
+
+H1 {
+  font-weight: Bold !important;
+  font-family: 'Playfair Display', serif !important;
+  size: 48px !important;
+  line-height: 150% !important;
+  color: var(--headingColor) !important;
+}
+
+H2 {
+  font-weight: Bold !important;
+  font-family: 'Montserrat', sans-serif !important;
+  size: 24px !important;
+  line-height: 150% !important;
+  color: var(--headingColor) !important;
+}
+
+H3 {
+  font-weight: Bold !important;
+  font-family: 'Montserrat', sans-serif !important;
+  size: 16px !important;
+  line-height: 150% !important;
+  color: var(--headingColor);
+}
+
+.phoneLogo {
+  height: 40px;
+  width: 40px;
+}
+
+.text-pink {
+  color: var(--pinkColor);
+}
+
+.product_title {
+  font-weight: Bold !important;
+  font-family: 'Montserrat', sans-serif !important;
+  size: 8px !important;
+  line-height: 150% !important;
+  color: var(--headingColor);
+}
+
+.btn-pink{
+  background: var(--greyColor)!important;
+  text-transform: capitalize;
+  color: var(--pinkColor);
+  border-radius: 50% !important;
+  border: 0.1rem;
+}
+.btn-pink:hover{
+  background: var(--pinkColor) !important;
+  color: var(--greyColor);
+}
+
+.decrement{
+  background: transparent;
+  font-size: 1rem;
+  padding: 0,0,0,0;
+  color:var(--mainWhite);
+}
+
+
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
